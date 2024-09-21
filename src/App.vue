@@ -58,6 +58,7 @@
     <section id="projetos" class="p-10 mt-10">
       <h2 class="text-3xl font-bold text-center">Projetos</h2>
       <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Projeto 1 -->
         <div class="p-6 border rounded-lg bg-gray-50 shadow-xl">
           <h3 class="text-xl font-bold">Projeto 1</h3>
           <p class="mt-2">
@@ -65,6 +66,7 @@
             <a href="#" class="text-blue-500 underline">Veja mais</a>
           </p>
         </div>
+        <!-- Projeto 2 -->
         <div class="p-10 border rounded-lg bg-gray-50 shadow-xl">
           <h3 class="text-xl font-bold">Projeto 2</h3>
           <p class="mt-2">
@@ -72,6 +74,7 @@
             <a href="#" class="text-blue-500 underline">Veja mais</a>
           </p>
         </div>
+        <!-- Projeto 3 -->
         <div class="p-6 border rounded-lg bg-gray-50 shadow-xl">
           <h3 class="text-xl font-bold">Projeto 3</h3>
           <p class="mt-2">
@@ -84,18 +87,51 @@
     </section>
 
     <!-- Seção 'Contato' -->
-    <section id="contato" class="p-10 text-center">
-      <h2 class="text-3xl font-bold">Contato</h2>
-      <p class="mt-4 text-gray-700">
-        Entre em contato comigo através das redes sociais ou envie uma mensagem.
-      </p>
-      <div class="mt-6">
-        <a href="https://www.linkedin.com/in/isaac-alves" class="text-blue-600 underline mx-2">
-          LinkedIn
-        </a>
-        <a href="https://github.com/isaac-alves" class="text-blue-600 underline mx-2">
-          GitHub
-        </a>
+    <section class="py-8">
+      <div class="container mx-auto px-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Contato</h2>
+        
+        <div class="p-6 mx-10 gap-5 border rounded-lg bg-gray-50 shadow-xl flex flex-col items-center">
+          <!-- Email -->
+          <div class="flex items-center mb-4">
+            <img src="caminho/para/icone-email.svg" alt="Email" class="w-6 h-6 mr-2" />
+            <button @click="abrirEmail" class="text-lg text-gray-800 hover:text-blue-500">
+              Email
+            </button>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="flex items-center mb-4">
+            <img src="caminho/para/icone-whatsapp.svg" alt="WhatsApp" class="w-6 h-6 mr-2" />
+            <button @click="abrirWhatsApp" class="text-lg text-gray-800 hover:text-blue-500">
+              WhatsApp
+            </button>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="flex items-center mb-4">
+            <img src="caminho/para/icone-linkedin.svg" alt="LinkedIn" class="w-6 h-6 mr-2" />
+            <button @click="abrirLinkedIn" class="text-lg text-gray-800 hover:text-blue-500">
+              LinkedIn
+            </button>
+          </div>
+
+          <!-- Instagram -->
+          <div class="flex items-center mb-4">
+            <img src="caminho/para/icone-instagram.svg" alt="Instagram" class="w-6 h-6 mr-2" />
+            <button @click="abrirInstagram" class="text-lg text-gray-800 hover:text-blue-500">
+              Instagram
+            </button>
+          </div>
+
+          <!-- Endereço -->
+          <div class="flex items-center">
+            <img src="caminho/para/icone-endereco.svg" alt="Endereço" class="w-6 h-6 mr-2" />
+            <span class="text-lg text-gray-800">
+              Teresina, PI - Brazil
+            </span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -124,6 +160,18 @@ export default {
     },
     irParaGithub() {
       window.open('https://www.github.com/isaaclvs/', '_blank');
+    },
+    abrirEmail() {
+      window.open('mailto:dev.isaaclvs@gmail.com', '_self');
+    },
+    abrirWhatsApp() {
+      window.open('https://wa.me/+5586999804586', '_blank');
+    },
+    abrirLinkedIn() {
+      window.open('https://www.linkedin.com/in/isaaclvs', '_blank');
+    },
+    abrirInstagram() {
+      window.open('https://www.instagram.com/dev.isaaclvs/', '_blank');
     },
   },
 };
