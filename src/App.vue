@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 min-h-screen font-sans">
+  <div class="bg-slate-50 min-h-screen font-sans">
     <!-- Header -->
     <header class="bg-blue-500 p-4 text-white flex text-center justify-around">
       <a aria-label="Ir para a página inicial" href="/">
@@ -31,8 +31,7 @@
       <div class="h-[10rem] flex justify-between p-7 px-[10rem] pt-[70px] divide-x divide-x-2 divide-slate-400 font-semibold">
         <article class="flex flex-row flex-col px-5">
           <p>Bem-vindo ao meu mundo! Sou um desenvolvedor full stack apaixonado por criar soluções inovadoras e funcionais. Estou aqui para transformar necessidades em experiências excepcionais.</p>
-          <br>
-          <div class="flex gap-4">
+          <div class="flex gap-4 pt-5">
             <button
             @click="irParaLinkedIn"
             class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-[5rem] gap-2 rounded-lg transition duration-300 ease-in-out shadow-xl flex"
@@ -56,22 +55,36 @@
     </main>
 
     <!-- Seção 'Projetos' -->
-    <section id="projetos" class="p-10 bg-white">
+    <section id="projetos" class="p-10 mt-10">
       <h2 class="text-3xl font-bold text-center">Projetos</h2>
       <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="p-6 border rounded-lg bg-gray-50">
+        <div class="p-6 border rounded-lg bg-gray-50 shadow-xl">
           <h3 class="text-xl font-bold">Projeto 1</h3>
           <p class="mt-2">
-            Descrição curta do projeto.{' '}
+            Descrição curta do projeto.{' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed vero, minus impedit repellendus id a sint voluptatum voluptate autem ducimus culpa. Laboriosam amet excepturi voluptas consequatur perferendis quaerat repellendus facilis?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam suscipit totam magni consectetur labore in voluptatem voluptate voluptas neque corporis veritatis molestias recusandae, accusamus, deserunt laborum. Repellat excepturi esse dignissimos? '}
             <a href="#" class="text-blue-500 underline">Veja mais</a>
           </p>
         </div>
-        <!-- Adicione mais projetos aqui -->
+        <div class="p-10 border rounded-lg bg-gray-50 shadow-xl">
+          <h3 class="text-xl font-bold">Projeto 2</h3>
+          <p class="mt-2">
+            Descrição curta do projeto.{' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed vero, minus impedit repellendus id a sint voluptatum voluptate autem ducimus culpa. Laboriosam amet excepturi voluptas consequatur perferendis quaerat repellendus facilis?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam suscipit totam magni consectetur labore in voluptatem voluptate voluptas neque corporis veritatis molestias recusandae, accusamus, deserunt laborum. Repellat excepturi esse dignissimos? '}
+            <a href="#" class="text-blue-500 underline">Veja mais</a>
+          </p>
+        </div>
+        <div class="p-6 border rounded-lg bg-gray-50 shadow-xl">
+          <h3 class="text-xl font-bold">Projeto 3</h3>
+          <p class="mt-2">
+            Descrição curta do projeto.{' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed vero, minus impedit repellendus id a sint voluptatum voluptate autem ducimus culpa. Laboriosam amet excepturi voluptas consequatur perferendis quaerat repellendus facilis?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam suscipit totam magni consectetur labore in voluptatem voluptate voluptas neque corporis veritatis molestias recusandae, accusamus, deserunt laborum. Repellat excepturi esse dignissimos? '}
+            <a href="#" class="text-blue-500 underline">Veja mais</a>
+          </p>
+        </div>
+        <!-- Futuros projetos aqui -->
       </div>
     </section>
 
     <!-- Seção 'Contato' -->
-    <section id="contato" class="p-10 text-center bg-gray-100">
+    <section id="contato" class="p-10 text-center">
       <h2 class="text-3xl font-bold">Contato</h2>
       <p class="mt-4 text-gray-700">
         Entre em contato comigo através das redes sociais ou envie uma mensagem.
@@ -85,6 +98,20 @@
         </a>
       </div>
     </section>
+
+    <!-- Rodape da pagina -->
+    <footer class="bg-blue-500 text-white py-4">
+      <div class="container mx-auto px-4">
+        <!-- Texto de Lorem Ipsum -->
+        <p class="text-center mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at lorem vitae purus vehicula sollicitudin.
+        </p>
+        <!-- Texto de Copyright -->
+        <p class="text-center font-semibold">
+          &copy; 2024 Isaac Alves. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -103,5 +130,5 @@ export default {
 </script>
 
 <style>
-/* ... */
+
 </style>
