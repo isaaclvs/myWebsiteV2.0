@@ -3,7 +3,7 @@
     <!-- Header -->
     <header class="bg-blue-500 p-4 text-white flex text-center justify-around">
       <a aria-label="Ir para a página inicial" href="/">
-        <img src="./assets/logo.png" class="w-[2em] mx-5 invert" alt="">
+        <img src="./assets/icons/logo.svg" class="w-[2em] mx-5 invert" alt="">
       </a>
       <nav>
         <ul class="flex justify-between gap-4 mx-7 mt-1 text-lg font-semibold">
@@ -36,14 +36,14 @@
             @click="irParaLinkedIn"
             class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-[5rem] gap-2 rounded-lg transition duration-300 ease-in-out shadow-xl flex"
             >
-              <img src="./assets/linkedin.png" alt="LinkedIn" class="w-4 h-4 mt-1 invert" />
+              <img src="./assets/icons/linkedin.svg" alt="LinkedIn" class="w-4 h-4 mt-1 invert" />
               LinkedIn
             </button>
             <button
             @click="irParaGithub"
             class="border border-blue-500 border-2 hover:bg-blue-500 hover:text-white font-bold py-3 px-[5rem] rounded-lg transition duration-300 ease-in-out shadow-xl flex"
             >
-              <img src="./assets/github.png" alt="Github" class="w-5 h-5 mx-1" />
+              <img src="./assets/icons/github.svg" alt="Github" class="w-5 h-5 mx-1" />
               Github
             </button>
           </div>
@@ -94,7 +94,7 @@
         <div class="p-6 mx-10 gap-5 border rounded-lg bg-gray-50 shadow-xl flex flex-col items-center">
           <!-- Email -->
           <div class="flex items-center mb-4">
-            <img src="caminho/para/icone-email.svg" alt="Email" class="w-6 h-6 mr-2" />
+            <img src="./assets/icons/email.svg" alt="Email" class="w-6 h-6 mr-2" />
             <button @click="abrirEmail" class="text-lg text-gray-800 hover:text-blue-500">
               Email
             </button>
@@ -102,7 +102,7 @@
 
           <!-- WhatsApp -->
           <div class="flex items-center mb-4">
-            <img src="caminho/para/icone-whatsapp.svg" alt="WhatsApp" class="w-6 h-6 mr-2" />
+            <img src="./assets/icons/whatsapp.svg" alt="WhatsApp" class="w-6 h-6 mr-2" />
             <button @click="abrirWhatsApp" class="text-lg text-gray-800 hover:text-blue-500">
               WhatsApp
             </button>
@@ -110,7 +110,7 @@
 
           <!-- LinkedIn -->
           <div class="flex items-center mb-4">
-            <img src="caminho/para/icone-linkedin.svg" alt="LinkedIn" class="w-6 h-6 mr-2" />
+            <img src="./assets/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6 mr-2" />
             <button @click="abrirLinkedIn" class="text-lg text-gray-800 hover:text-blue-500">
               LinkedIn
             </button>
@@ -118,7 +118,7 @@
 
           <!-- Instagram -->
           <div class="flex items-center mb-4">
-            <img src="caminho/para/icone-instagram.svg" alt="Instagram" class="w-6 h-6 mr-2" />
+            <img src="./assets/icons/instagram.svg" alt="Instagram" class="w-6 h-6 mr-2" />
             <button @click="abrirInstagram" class="text-lg text-gray-800 hover:text-blue-500">
               Instagram
             </button>
@@ -126,7 +126,7 @@
 
           <!-- Endereço -->
           <div class="flex items-center">
-            <img src="caminho/para/icone-endereco.svg" alt="Endereço" class="w-6 h-6 mr-2" />
+            <img src="./assets/icons/endereco.svg" alt="Endereço" class="w-6 h-6 mr-2" />
             <span class="text-lg text-gray-800">
               Teresina, PI - Brazil
             </span>
